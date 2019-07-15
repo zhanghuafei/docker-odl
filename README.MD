@@ -7,7 +7,7 @@
 ===
 1. centos:latest
 2. jdk-8u211-linux-x64.tar.gz
-3、pendaylight-0.10.1.tar.gz
+3. pendaylight-0.10.1.tar.gz
 
 build
 ===
