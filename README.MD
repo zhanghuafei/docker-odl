@@ -21,4 +21,7 @@ docker run -it -p 8181:8181 --name my-odl opendaylight
 ```
 遗留问题
 ===
-- 以-d的方式运行，container自行退出，而root process理论上并未退出。
+- 以-d的方式运行，container自行退出，而root process理论上并未退出。  
+```
+answer: 应该是程序会检测stdin是否有console attached，若没有则执行结束
+```
