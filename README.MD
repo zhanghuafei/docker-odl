@@ -19,7 +19,7 @@ run
 ```
 docker run -it -p 8181:8181 --name my-odl opendaylight
 ```
-遗留问题
+Issues
 ===
 - 以-d的方式运行，container自行退出，而root process理论上并未退出。  
 ```
